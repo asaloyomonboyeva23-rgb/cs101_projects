@@ -4,17 +4,6 @@ home_realm = input("enter the character's home: ")
 special_ability = input("enter the character's ability: ")
 choosen_weapon = input("enter the character's weapon : ")
 
-if character_name == "":
-    character_name = "Unknown Character"
-if character_class == "":
-    character_class = " Unknown class"
-if home_realm == "":
-    home_realm = " unkown home" 
-if special_ability == "":
-    special_ability = " Unknown ability"
-if choosen_weapon == "":
-    choosen_weapon = " Unknowb ability" 
-
 print(
 "  ========================================\n"
 "-- CHARACTER CREATION COMPLETE --\n"
