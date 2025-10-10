@@ -1,22 +1,8 @@
-character_name = input("enter the character's name: " )
-character_class = input("enter the character's class: ")
-home_realm = input("enter the character's home: ")
-special_ability = input("enter the character's ability: ")
-choosen_weapon = input("enter the character's weapon : ")
+dish_name = input(" enter the dishs name : ")
+price = float(input( "enter the price : "))
+name = input(" enter your name :")
+has_student_id = bool(input( "do you have a student card : "))
+order_time= int(input( " enter the order time : "))
+print(f"\n\n receipt for { dish_name}")
+print(f" " )
 
-print(
-"  ========================================\n"
-"-- CHARACTER CREATION COMPLETE --\n"
-"==========================================\n"
-
-"Name:     " + character_name + "\n"
-"Class:    " + character_class + "\n"
-"home_Realm:    " + home_realm + "\n"
-
-"Title:  " + character_name + " the " + character_class + " of " + home_realm + "\n"
-
-"-------------------------------------------"
-
-"Weapon of Choice: " + choosen_weapon + "\n"
-"Special Ability: " + special_ability + "\n"
-"========================================")
